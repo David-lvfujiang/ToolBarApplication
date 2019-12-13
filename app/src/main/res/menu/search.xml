@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_home"
+        android:title="首页"
+        android:icon="@mipmap/home"
+        app:showAsAction="collapseActionView"/>
+    <item
+        android:id="@+id/action_me"
+        android:title="我的"
+        android:icon="@mipmap/me"
+        app:showAsAction="collapseActionView"/>
+    <item
+        android:id="@+id/action_focus"
+        android:title="关注"
+        android:icon="@mipmap/focus"
+        app:showAsAction="collapseActionView"/>
+</menu>
